@@ -1,0 +1,13 @@
+html{
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('../img/landscape.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
