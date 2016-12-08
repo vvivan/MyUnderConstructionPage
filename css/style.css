@@ -1,9 +1,10 @@
 html{
-    font-family: sans-serif;
+    font-family:'Lato', sans-serif;
+	font-weight: 300;
 }
 
 body {
-    background-image: url('../img/landscape.jpg');
+    background-image: url('../img/lake-sunset.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -12,40 +13,107 @@ body {
     text-align: center;
 }
 
+h1, h2 {
+	font-family:'Lato', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3em;	
+}
+
+h2 {
+	font-size: 2.1em;	
+}
+
 #placeholder {
-    background-color: rgba(255, 255, 255, 0.42);
+/*    background-color: rgba(255, 255, 255, 0.42);*/
     width: 80%;
-    margin: 0 auto;
-    height: 250px;
+	height: 400px;
+    margin: 70px auto;
+/*    height: 250px;*/
 }
 
 .basic-info {
-    float: left;
-    width: 50%;
-    height: 100%;
-    background-color: blue;
+	position:relative;
+	float: left;
+    width: 60%;
+	height: 100%;
+    /*height: 80%;
+	margin: auto 0pt;*/
+/*	background-color: blue;*/
+	
+}
+
+.description {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 80%;
+	width: 90%;
+	margin: auto;
+	
+/*	background-color: red;*/
+/*	font-family: 'Courgette', cursive, sans-serif;*/
+	font-family: 'Handlee', cursive, sans-serif;
+	font-size: 2.2em;
 }
 
 .img-placeholder {
-    float: right;
-    width: 50%;
-    height: 100%;
-    background-color: blue;
-    border-radius: 50%;
-    
+	float: right;
+    width: 40%;
+/*    height: 100%;*/
+/*    background-color: blue;   */
+/*	border: 2pt solid white;*/
+}
+
+.img-placeholder img {
+	border-radius: 50%;
+	max-width: 300px;
+}
+
+.name {
+	font-size: 2.3em;	
+}
+
+.clear {
+	clear: both;
 }
 
 #social {
     background-color: rgba(255, 255, 255, 0.42);
     width: 80%;
-    margin: 20px auto;
-    height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social img {
+	max-height: 70px;
+	padding: 10px;
+}
+
+.author {
+	text-align: right;
+}
+
+.quote-heading {
+	text-align: left;
+	margin-bottom: 15px;
+	font-size: 1.2em;
+	border-bottom: 1px solid white;
+}
+
+.quote {
+	text-align: left;
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+    padding: 10px 0;
+	border-top: 2px solid white;
 }
-
