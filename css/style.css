@@ -1,16 +1,22 @@
 html{
     font-family:'Lato', sans-serif;
 	font-weight: 300;
-}
-
-body {
-    background-image: url('../img/lake-sunset.jpg');
+	
+	background-image: url('../img/lake-sunset.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    width: 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+/*    height: 100%;*/
     color: white;
     text-align: center;
+}
+
+body {
+    
 }
 
 h1, h2 {
@@ -94,8 +100,21 @@ h2 {
 	padding: 10px;
 }
 
-.author {
+#quote {
+	text-align: left;	
+}
+
+#author {
 	text-align: right;
+}
+
+#quote, #author {
+	/*	Startovanje animacije*/
+	animation-name: example;
+    animation-duration: 6s;
+/*	animation-delay: 2s;*/
+	/*animation-iteration-count: 2;
+	animation-direction: alternate;*/
 }
 
 .quote-heading {
@@ -105,10 +124,6 @@ h2 {
 	border-bottom: 1px solid white;
 }
 
-.quote {
-	text-align: left;
-}
-
 footer {
     width: 80%;
 	margin-left: auto;
@@ -116,4 +131,12 @@ footer {
 	margin-top: 70px;
     padding: 10px 0;
 	border-top: 2px solid white;
+}
+
+/*Podesavanje parametara animacije*/
+@keyframes example {
+    0% {color: rgba(255, 255, 255, 0);}
+    45% {color: rgb(255, 255, 255);}
+    100% {color: rgb(255, 255, 255);}
+/*    100% {color: rgba(255, 255, 255, 0);}*/
 }
