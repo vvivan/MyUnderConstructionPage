@@ -1,0 +1,22 @@
+#clockdiv {
+    display: inline-block;
+    font-size: 4rem;
+}
+
+#clockdiv > div {
+    display: inline-block;
+    padding: 3px;
+}
+
+#clockdiv div > span {
+    display: inline-block
+}
+
+.smalltext {
+	padding-top: 5px;
+	font-size: 1rem;
+}
+
+.days, .hours, .minutes, .seconds {
+    border-bottom: 1px solid white;
+}
