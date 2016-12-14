@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    width: 100%;
     color: white;
     text-align: center;
 }
@@ -29,32 +28,21 @@ h2 {
 #placeholder {
 /*    background-color: rgba(255, 255, 255, 0.42);*/
     width: 80%;
-	height: 400px;
     margin: 70px auto;
-/*    height: 250px;*/
 }
 
-.basic-info {
-	position:relative;
+.txt-placeholder {
+    /*font-family: 'Handlee', cursive, sans-serif;
+	font-size: 2.2em;*/
 	float: left;
     width: 60%;
-	height: 100%;
-    /*height: 80%;
-	margin: auto 0pt;*/
-/*	background-color: blue;*/
+    height: 100%;
+/*    background-color: rgba(0, 0, 255, 0.43);*/
 	
 }
 
 .description {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	height: 80%;
-	width: 90%;
-	margin: auto;
-	
+/*    background-color: rgba(255, 165, 0, 0.36);*/
 /*	background-color: red;*/
 /*	font-family: 'Courgette', cursive, sans-serif;*/
 	font-family: 'Handlee', cursive, sans-serif;
@@ -79,7 +67,7 @@ h2 {
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #social {
@@ -94,7 +82,7 @@ h2 {
 	padding: 10px;
 }
 
-.author {
+#author {
 	text-align: right;
 }
 
@@ -105,7 +93,7 @@ h2 {
 	border-bottom: 1px solid white;
 }
 
-.quote {
+#quote {
 	text-align: left;
 }
 
