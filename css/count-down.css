@@ -13,10 +13,13 @@
 }
 
 .smalltext {
-	padding-top: 5px;
-	font-size: 1rem;
+    padding-top: 5px;
+    font-size: 1rem;
 }
 
-.days, .hours, .minutes, .seconds {
+.days,
+.hours,
+.minutes,
+.seconds {
     border-bottom: 1px solid white;
 }
