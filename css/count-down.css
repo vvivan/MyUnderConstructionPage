@@ -23,3 +23,7 @@
 .seconds {
     border-bottom: 1px solid white;
 }
+
+.days, #days-smalltext {
+    margin-right: 20px;
+}
