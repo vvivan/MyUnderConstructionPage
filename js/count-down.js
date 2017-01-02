@@ -43,7 +43,7 @@ function initializeClock(id, endtime) {
 // Define DeadLine DATE
 //
 /////////////////////////////////////////////////////
-var deadLineDate = '2017-1-1';
+var deadLineDate = '2017-2-1';
 var deadline = new Date(Date.parse(deadLineDate));
 
 /////////////////////////////////////////////////////
